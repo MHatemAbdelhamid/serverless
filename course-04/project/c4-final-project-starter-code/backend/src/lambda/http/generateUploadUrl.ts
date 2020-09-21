@@ -1,7 +1,7 @@
-import 'source-map-support/register'
+import '../../../node_modules/source-map-support/register'
 
 import { APIGatewayProxyEvent, APIGatewayProxyResult, APIGatewayProxyHandler } from 'aws-lambda'
-import * as uuid from 'uuid'
+import * as uuid from '../../../node_modules/uuid'
 
 import { generateUploadUrl, updateAttachmentUrl } from '../../businessLogic/todos'
 import { createLogger } from '../../utils/logger'

@@ -1,4 +1,4 @@
-import 'source-map-support/register'
+import '../../node_modules/source-map-support/register'
 
 import * as AWS from 'aws-sdk'
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'

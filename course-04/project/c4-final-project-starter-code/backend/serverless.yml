@@ -15,7 +15,7 @@ provider:
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
     TODOS_BY_USER_INDEX: TodosByUserIndex
-    ATTACHMENTS_S3_BUCKET: todos-attachments-${self:provider.stage}
+    ATTACHMENTS_S3_BUCKET: todos-attachments-s3-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
     AUTH_0_JWKS_URL: https://dev-7vnzxb1j.us.auth0.com/.well-known/jwks.json
 

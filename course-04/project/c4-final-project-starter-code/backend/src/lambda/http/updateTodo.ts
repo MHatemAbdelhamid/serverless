@@ -1,4 +1,4 @@
-import 'source-map-support/register'
+import '../../../node_modules/source-map-support/register'
 
 import { APIGatewayProxyEvent, APIGatewayProxyHandler, APIGatewayProxyResult } from 'aws-lambda'
 
